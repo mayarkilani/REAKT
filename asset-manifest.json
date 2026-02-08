@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/REAKT/static/css/main.90a49e29.css",
-    "main.js": "/REAKT/static/js/main.307275da.js",
+    "main.js": "/REAKT/static/js/main.b9d1e92c.js",
     "static/js/453.15a626a8.chunk.js": "/REAKT/static/js/453.15a626a8.chunk.js",
     "index.html": "/REAKT/index.html",
     "main.90a49e29.css.map": "/REAKT/static/css/main.90a49e29.css.map",
-    "main.307275da.js.map": "/REAKT/static/js/main.307275da.js.map",
+    "main.b9d1e92c.js.map": "/REAKT/static/js/main.b9d1e92c.js.map",
     "453.15a626a8.chunk.js.map": "/REAKT/static/js/453.15a626a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90a49e29.css",
-    "static/js/main.307275da.js"
+    "static/js/main.b9d1e92c.js"
   ]
 }
