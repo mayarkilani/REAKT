@@ -39,7 +39,7 @@ function App() {
         <h1>معرض أعمالي البرمجية</h1>
         <p>Full-Stack Developer | متخصص في <strong>C# & React</strong></p>
         
-        <a href="components/mayar_Khaled kilani_Web design engineer _resume (2).pdf" download className="cv-button">
+        <a href="components/mayar_Khaled kilani_Web design engineer _resume.pdf" download className="cv-button">
           <FaDownload /> تحميل السيرة الذاتية (CV)
         </a>
       </header>
