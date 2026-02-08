@@ -65,7 +65,9 @@ function App() {
         <div className="contact-icons">
           <a href="https://github.com/" target="_blank" rel="noreferrer"><FaGithub size={35} /></a>
           <a href="mailto:your-email@example.com"><FaEnvelope size={35} /></a>
-          <a href="https://wa.me/your-number" target="_blank" rel="noreferrer"><FaWhatsapp size={35} color="#25D366" /></a>
+         <a href="https://wa.me/qr/RM5BA4YL32CJP1" target="_blank" rel="noopener noreferrer">
+   <FaWhatsapp size={30} color="#25D366" />
+</a>
         </div>
         <p>© 2026 جميع الحقوق محفوظة - مبرمج Full Stack</p>
       </footer>
