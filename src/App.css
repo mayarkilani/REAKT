@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+  background-color: #1a1a1a; /* لون خلفية داكن احترافي */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills-container {
+  background-color: #252525;
+  padding: 20px;
+  border-radius: 15px;
+  border-left: 5px solid #007acc; /* لون أزرق يرمز لـ .NET */
+  margin-top: 20px;
+  text-align: right;
+  direction: rtl;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  color: #61dafb; /* لون React الأزرق المميز */
+}
+
+strong {
+  color: #512bd4; /* لون C# و .NET الرسمي */
+}
+/* الألوان الأساسية للمبرمجين */
+:root {
+  --bg-color: #0d1117;
+  --card-bg: #161b22;
+  --accent-blue: #58a6ff;
+  --accent-purple: #bc8cff;
+  --text-main: #c9d1d9;
+}
+
+.App {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  direction: rtl; /* ليكون الموقع متوافق مع اللغة العربية */
+}
+
+.header {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 20px;
+}
+
+/* تصميم الشبكة (Grid) */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* تصميم البطاقة */
+.project-card {
+  background-color: var(--card-bg);
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: right;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  position: relative;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--accent-blue);
+}
+
+.card-badge {
+  background: rgba(88, 166, 255, 0.1);
+  color: var(--accent-blue);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.github-btn {
+  display: inline-block;
+  margin-top: 20px;
+  color: var(--accent-purple);
+  text-decoration: none;
+  font-size: 0.9rem;
+  border: 1px solid var(--accent-purple);
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.github-btn:hover {
+  background-color: var(--accent-purple);
+  color: white;
+}
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.react-logo-spinning {
+  animation: rotate-logo infinite 20s linear;
+}
+
+@keyframes rotate-logo {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.project-icon {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  margin-top: 60px;
+  padding: 40px;
+  border-top: 1px solid #30363d;
+  width: 100%;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.contact-icons a {
+  color: #c9d1d9;
+  transition: 0.3s;
+}
+
+.contact-icons a:hover {
+  color: #58a6ff;
+  transform: scale(1.2);
+}
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #238636; /* لون أخضر يوحي بالنجاح والتحميل */
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.cv-button:hover {
+  background-color: #2ea043;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(46, 160, 67, 0.4);
+}
